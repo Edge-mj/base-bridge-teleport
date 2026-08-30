@@ -8,7 +8,7 @@ Developer utility files designed to sync and listen to transactional bridge acti
 const bridgeConfig = {
     standardBridge: "0x3154...BaseBridgeAddress",
     targetChainId: 8453,
-    confirmationsRequired: 12
+    confirmationsRequired: 15
 };
 
 function trackDepositStatus(txHash, logs) {
